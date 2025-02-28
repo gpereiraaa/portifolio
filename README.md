@@ -12,4 +12,4 @@ Minha primeira página web, criada durante a disciplina de Linguagem de Marcaç�
 * MARKDOWN
 
 ## Autor
-[Gustavo Pereira](www.linkedin.com/in/gustavo-pereira-dev-redes)
+[Gustavo Pereira](https://www.linkedin.com/in/gustavo-pereira-dev-redes)
