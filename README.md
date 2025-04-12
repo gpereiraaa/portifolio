@@ -1,9 +1,9 @@
-# portifolio
+# Portifólio
 
 ![](./preview.png)
 
 ## Projeto
-Minha primeira página web, criada durante a disciplina de Linguagem de Marcação do curso de Desenvolvimento de sistemas no Senai Jandira
+Meu primeiro portifólio web, criado durante a disciplina de Linguagem de Marcação do curso de Desenvolvimento de sistemas no Senai Jandira
 
 ## Tecnologias
 * HTML

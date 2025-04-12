@@ -6,16 +6,31 @@
 body{
     height: 100vh;
     display: grid;
-    grid-template-rows: 100px 1fr 50px;
-    background-color: bisque;
+    /*grid-template-rows: 100px 1fr 50px*/
+    background: #061042;
+    background: linear-gradient(180deg, rgba(6, 16, 66, 1) 0%, rgba(18, 51, 181, 1) 51%, rgba(6, 16, 66, 1) 100%);
 }
 
 main{
     display: grid;
     place-content: center;
+    height: 100%;
+}
+span{
+    font-size: 2rem;
+    font-weight: 100vh;
+    font-style: italic;
+    color: bisque;
 }
 h1{
     font-size: 5rem;
     font-weight: 100vh;
     font-style: italic;
+    color: white;
+}
+texto{
+    font-size: 2rem;
+    font-weight: 100vh;
+    font-style: italic;
+    color: bisque;
 }
