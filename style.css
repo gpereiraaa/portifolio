@@ -314,3 +314,36 @@ main {
     font-size: 30px;
     font-weight: 400;
 }
+
+
+footer {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-padrao);
+}
+
+footer h3 {
+    font-family: var(--font-kavonn);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+footer h6 {
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    font-weight: 400;
+}
+footer a {
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
