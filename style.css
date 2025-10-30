@@ -89,7 +89,10 @@ header {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     padding: var(--padding-padrao);
+    gap: 40px;
 }
 
 .section-1 {
@@ -119,6 +122,7 @@ main {
     justify-content: space-between;
     gap: 30px;
 }
+
 .habilidades-esquerda {
     display: flex;
     flex-grow: 1;
@@ -144,4 +148,151 @@ main {
     font-family: var(--font-poppins);
     font-size: 20px;
     font-weight: 400;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container-back-end {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    font-family: var(--font-poppins);
+}
+.container-back-end img {
+    object-fit: cover;
+}
+
+.container-back-end div {
+    display: flex;
+    gap: 30px;
+}
+
+.container-back-end h3 {
+    font-family: var(--font-kavonn);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container-back-end h6 {
+    font-family: var(--font-kavonn);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-back-end h4 {
+    font-family: var(--font-kavonn);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-back-end p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-back-end ul {
+    padding: 20px;
+}
+
+.container-back-end li {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.container-back-end button {
+    background-color: transparent;
+    border-color: var(--cor-principal);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor-principal);
+    font-family: var(--font-kavonn);
+}
+
+.container-back-direita {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.container-back-esquerda {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.container-front-end {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    font-family: var(--font-poppins);
+}
+
+.container-front-end img {
+    object-fit: cover;
+}
+
+.container-front-end div {
+    display: flex;
+    gap: 30px;
+}
+
+.container-front-end h3 {
+    font-family: var(--font-kavonn);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container-front-end h6 {
+    font-family: var(--font-kavonn);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-front-end h4 {
+    font-family: var(--font-kavonn);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-front-end p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-front-end ul {
+    padding: 20px;
+}
+
+.container-front-end li {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.container-front-end button {
+    background-color: transparent;
+    border-color: var(--cor-principal);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--cor-principal);
+    font-family: var(--font-kavonn);
+}
+
+.container-front-direita {
+    display: flex;
+    flex-grow: 1;
+    width: 50%;
+    flex-direction: column;
+}
+
+.container-front-esquerda {
+    display: flex;
+    flex-grow: 1;
+    width: 50%;
+    flex-direction: column;
 }
