@@ -1,9 +1,142 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     color: inherit;
     text-decoration: none;
+}
+
+:root {
+    --cor-principal: #506EE5;
+    --cor-secundaria: #FFFFFF;
+    --padding-padrao: 30px;
+    --font-kavonn: "Kavoon", serif;
+    --font-poppins: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.barra {
+    background-color: var(--cor-principal);
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: var(--padding-padrao);
+    padding-right: var(--padding-padrao);
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    font-family: var(--font-kavonn);
+    color: var(--cor-secundaria);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.parte-inferior {
+    padding: var(--padding-padrao);
+    display: flex;
+}
+
+.container-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+    font-family: var(--font-kavonn);
+}
+
+.container-direita h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.container-direita h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.container-direita h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-direita p {
+    font-family: var(--font-poppins);
+}
+
+
+.container-esquerda {
+    display: flex;
+    flex-grow: 1;
+}
+
+.container-esquerda img {
+    height: 411px;
+    width: 504px;
+    object-fit: cover;
+}
+
+main {
+    padding: var(--padding-padrao);
+}
+
+.section-1 {
+    padding: 20px;
+    display: flex;
+    font-family: var(--font-kavonn);
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section-1 h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.habilidades-direita {
+    display: flex;
+    flex-grow: 1;
+}
+.habilidades-esquerda {
+    display: flex;
+    flex-grow: 1;
+}
+
+.habilidade {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.habilidade h6 {
+    font-weight: 400;
+    font-family: var(--font-kavonn);
+    font-size: 24px;
+    display: flex;
+    justify-content: left;
+}
+
+.habilidade ul {
+    font-family: var(--font-poppins);
+    font-size: 20px;
+    font-weight: 400;
 }
