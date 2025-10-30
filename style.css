@@ -20,6 +20,7 @@ a {
 header {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 .barra {
@@ -108,17 +109,21 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px;
+    gap: 60px;
     align-items: center;
 }
 
 .habilidades-direita {
     display: flex;
     flex-grow: 1;
+    justify-content: space-between;
+    gap: 30px;
 }
 .habilidades-esquerda {
     display: flex;
     flex-grow: 1;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .habilidade {
